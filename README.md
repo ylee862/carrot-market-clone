@@ -1,2 +1,4 @@
 # carrot-market-clone
-This is the clone of "Carrot Market", a digital marketplace where users can sell items.
+*This is the clone of "Carrot Market", a digital marketplace where users can SELL items.
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ylee862)]
