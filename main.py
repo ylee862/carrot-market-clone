@@ -88,4 +88,4 @@ async def get_image(item_id):
     return Response(content=bytes.fromhex(image_bytes), media_type='image/*')
 
 #showing it on the root path
-app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
+app.mount("/", StaticFiles(directory="carrot-market-clone/frontend", html=True), name="frontend")
