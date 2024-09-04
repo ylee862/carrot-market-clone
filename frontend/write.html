@@ -1,0 +1,45 @@
+<!--Yedam Lee-->
+<!--Html file that displays the page where users can write their new posting.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posting</title>
+  </head>
+
+  <body>
+    <form id="write-form">
+      <div>
+        <label for="image">image</label>
+        <input type="file" id="image" name="image" />
+      </div>
+      <div>
+        <label for="title">title</label>
+        <input type="text" id="title" name="title" />
+      </div>
+      <div>
+        <label for="price">price</label>
+        <input type="number" id="price" name="price" />
+      </div>
+      <div>
+        <label for="description">description</label>
+        <input type="text" id="description" name="description" />
+      </div>
+
+      <div>
+        <label for="place">place</label>
+        <input type="text" id="place" name="place" />
+      </div>
+
+      <!--button to submit new post onto the market-->
+      <div>
+        <button type="submit">post</button>
+      </div>
+    </form>
+
+    <!--connecting to its java script file-->
+    <script src="write.js"></script>
+  </body>
+</html>
